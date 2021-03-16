@@ -57,12 +57,12 @@ class Home extends Component {
         <Container fluid>
           <Jumbotron />
           <form>
-            <h5>Search for books</h5>
+            <h5>Search for your amazing books</h5>
             <Input
               value={this.state.search}
               onChange={this.handleInputChange}
               name="search"
-              placeholder="e.g. Harry Potter"
+              placeholder="e.g. The Old Man and the Sea"
             />
             <SubmitBtn onClick={this.handleFormSubmit} />
           </form>
@@ -75,7 +75,7 @@ class Home extends Component {
           ) : (
             <div>
               <hr />
-              <p style={{ fontStyle: "italic" }}>No results to display</p>
+              <p style={{ fontStyle: "oblique" }}>No results to display</p>
             </div>
           )}
         </Container>

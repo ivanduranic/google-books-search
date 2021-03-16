@@ -63,7 +63,7 @@ class ResultListItem extends Component {
               className="btn btn-primary"
               style={{ marginRight: "6px" }}
             >
-              View Book
+              View This Book
             </a>
             <button
               onClick={this.onClickFunc}
