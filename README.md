@@ -16,10 +16,9 @@ This is a React-based Google Books Search app. It has come to life by creating R
 ## Installation
 
 To use this app on your local machine, you'll have to clone my repository. In order to install it, in your terminal run command 'npm install'. You can start the server with the command 'npm start' and the app will be available at localhost:3000.
+Deployed application is currently hosted on Heroku and you can access it at: https://google-books-search-id.herokuapp.com/.
 
 ## Usage
-
-You can view the deployed application at:
 
 ![image](https://user-images.githubusercontent.com/61889668/111249097-86c31600-85e1-11eb-9a39-3b96cfe2eb9c.png)
 ![image](https://user-images.githubusercontent.com/61889668/111249181-ae19e300-85e1-11eb-9d7a-aad895e122f9.png)
